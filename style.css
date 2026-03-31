@@ -1,0 +1,104 @@
+/* GENERAL */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background: #f4f4f4;
+}
+
+/* HEADER */
+header {
+background: #ff6347;
+color: white;
+padding: 15px;
+text-align: center;
+}
+
+nav {
+ margin-top: 10px;
+}
+
+nav a {
+color: white;
+margin: 10px;
+text-decoration: none;
+padding: 8px;
+}
+
+/* HOVER EFFECT */
+nav a:hover {
+background: white;
+ color: #ff6347;
+border-radius: 5px;
+}
+.intro {
+text-align: center;
+padding: 20px;
+}
+
+/* FLEXBOX (REQUIRED) */
+.recipes {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+/* CARD DESIGN */
+.card {
+background: white;
+margin: 15px;
+padding: 15px;
+border: 1px solid #ddd;
+width: 200px;
+text-align: center;
+border-radius: 10px;
+}
+
+.card img {
+width: 100%;
+}
+
+/* BUTTON HOVER */
+.card a {
+display: inline-block;
+margin-top: 10px;
+padding: 8px;
+background: #ff6347;
+color: white;
+text-decoration: none;
+}
+
+.card a:hover {
+background: #333;
+}
+
+/* RECIPE PAGE */
+.recipe {
+padding: 20px;
+}
+
+.recipe img {
+width: 300px;
+display: block;
+margin-bottom: 15px;
+}
+
+/* FOOTER */
+footer {
+background: #333;
+color: white;
+text-align: center;
+padding: 10px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+.recipes {
+flex-direction: column;
+align-items: center;
+}
+
+Copy
+.recipe img {
+    width: 100%;
+}
+}
